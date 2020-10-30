@@ -1,0 +1,265 @@
+/*---------------------------------------------------------------------------------------------
+REFERENCES
+I redesigned the responsive navigation bar using the code below:
+Responsive Pure CSS Menu 
+https://morioh.com/p/9655fb8c1dad
+https://github.com/wilsmex/edu/tree/master/responsive_menu_css_only/finish
+-----------------------------------------------------------------------------------------------
+This website is a recreated version from one of Danny's previous projects 
+and from the projects "Snowball Challenge" & "Innovation Camp Website".
+http://www.danny.informatikk4.net/Oppgaver/6%20-%20Elektrisk%20Sparkesykkel/index_ELSS.html
+https://danny1401.github.io/Snowball-Challenge/index.html
+https://github.com/danny1401/Innovation-Camp-Website/index.html
+-----------------------------------------------------------------------------------------------*/
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #E0E0E0;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+div {letter-spacing: 0.4;}
+ul.list {list-style-type:none; padding:5 5; margin:5 5;}
+
+/* TITLES */
+#maintitle {
+	position: relative;
+	top: 20vw;
+	max-width: 100%;
+	padding: 28px 2vw;
+	color: white;
+	background-color: #600080;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	font-size: 3.6vw;
+	letter-spacing: 2;
+}
+.subtitle {
+	position: relative;
+	top: 7vw;
+	width: 38vw;
+	padding: 13px 0;
+	color: white;
+	background-color: #3366cc;
+	border: 2px solid black;
+	border-radius: 10px;
+	font-size: 2.8vw;
+	text-shadow: 0.15vw 0.15vw black;
+}
+h2 {margin-bottom: 5px;}
+
+
+
+
+
+
+/*----------------------EDUCATION IN NIGER-------------------------*/
+/* SECTION UNO */
+#box1 {
+	position: relative;
+	top: 6.8vw;
+	height: 28.6vw;
+	width: 46.2vw;
+	padding: 0.4vw 2.8vw;
+	padding-right: 0.3.8vw;
+	background-color: #85a3e0;
+	border: 2px solid black;
+	border-radius: 20px;
+	font-size: 1.3vw;
+	text-align: left;
+	line-height: 1.7;
+}
+#map {
+	position: relative;
+	top: 6.8vw;
+	height: 29.5vw;
+	width: 26.8vw;
+	padding: 0vw 2.5vw;
+	border: 2px solid black;
+	border-radius: 20px;
+	background-color: white;
+}
+#section1 { height:75%; }
+#left1 { position:relative; width:55%; float:left; margin-bottom: 50px;}
+#right1 { position:relative; width:35%; float:left; margin-bottom: 50px;}
+#side1 { position:relative; width:5%; float:left;}
+
+/* SECTION DOS */
+#box2 {
+	position: relative;
+	top: 4.5vw;
+	height: 55vw;
+	width: 40vw;
+	padding: 0.4vw 2.8vw;
+	padding-right: 2vw;
+	background-color: #85a3e0;
+	border: 2px solid black;
+	border-radius: 20px;
+	font-size: 1.3vw;
+	text-align: left;
+	line-height: 1.45;
+	margin-bottom: 4vw;
+}
+#education {
+	position: relative;
+	top: 4.5vw;
+	height: 26.5vw;
+	width: 38.6vw;
+	border: 2px solid black;
+	border-radius: 20px;
+	background-color: grey;
+}
+#people {
+	position: relative;
+	top: 7vw;
+	height: 26.5vw;
+	width: 38.6vw;
+	border: 2px solid black;
+	border-radius: 20px;
+	background-color: grey;
+}
+#section2 { height:70%; }
+#left2 { position:relative; width:48%; float:left; margin-bottom: 50px;}
+#right2 { position:relative; width:42%; float:left; margin-bottom: 50px;}
+#side2 { position:relative; width:5%; float:left;}
+
+
+
+
+
+/*---------------------------OUR SOLUTION------------------------------*/
+/* SECTION UNO */
+#box3 {
+	position: relative;
+	top: 6.8vw;
+	height: 28.5vw;
+	width: 45.7vw;
+	padding: 0.4vw 2.8vw;
+	background-color: #85a3e0;
+	border: 2px solid black;
+	border-radius: 20px;
+	font-size: 1.3vw;
+	text-align: left;
+	line-height: 1.8;
+}
+#the-box {
+	position: relative;
+	top: 6.8vw;
+	height: 26.35vw;
+	width: 28.3vw;
+	padding: 1.5vw 2vw;
+	border: 2px solid black;
+	border-radius: 20px;
+	background-color: white;
+}
+#section3 {height:75%; }
+#left3 { position:relative; width:55%; float:left; margin-bottom: 50px;}
+#right3 { position:relative; width:35%; float:left; margin-bottom: 50px;}
+#side3 { position:relative; width:5%; float:left;}
+
+/* SECTION DOS */
+#box4, #box6 {
+	position: relative;
+	top: 4.4vw;
+	height: 28.6vw;
+	width: 36vw;
+	padding: 0.4vw 2.8vw;
+	background-color: #85a3e0;
+	border: 2px solid black;
+	border-radius: 20px;
+	font-size: 1.3vw;
+	text-align: left;
+	line-height: 1.8;
+	margin-bottom: 4vw;
+}
+#bilde3 {
+	position: relative;
+	top: 4.4vw;
+	height: 29.5vw;
+	width: 40.3vw;
+	border: 2px solid black;
+	border-radius: 20px;
+	background-color: grey;
+}
+#note {font-size: 1.29vw;}
+#section4 {height:70%;}
+#left4 { position:relative; width:45%; float:left; margin-bottom: 50px;}
+#right4 { position:relative; width:45%; float:left; margin-bottom: 50px;}
+#side4 { position:relative; width:5%; float:left;}
+
+
+
+/*----------------------------CONTACT US-----------------------------*/
+#box5 {
+	position: relative;
+	top: 6.8vw;
+	height: 28.6vw;
+	width: 50.5vw;
+	padding: 0.4vw 3.5vw;
+	background-color: #85a3e0;
+	border: 2px solid black;
+	border-radius: 20px;
+	font-size: 1.3vw;
+	text-align: left;
+	line-height: 2;
+}
+#email {
+	color: black;
+	font-weight: normal; 
+	text-shadow: none;
+	font-family: HelveticaNeue, Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+#part {line-height:2.4; font-size:1.45vw;}
+.socialmedia {
+	position: relative;
+	top: -5.6vw;
+	left: 25vw;
+	width: 30vw;
+	text-align: center;
+}
+.sm-icon {
+	width: 4.5vw;
+	height: 4.5vw;
+	margin: 0px 9px;
+	border: 2px solid black;
+	border-radius: 18px;
+}
+
+/*----------------------------RESPONSIVE DESIGN----------------------------------*/
+
+@media only screen and (max-width:800px) {
+  /* For mobile phones: */
+	#maintitle {top:28vw; max-width:70%; font-size:5vw; padding:17px 5vw; line-height:1.4;}
+	.subtitle {top:20vw; font-size:3.4vw; padding:13px 15px;}
+	
+	/* EDUCATION */
+	#section1, #left1, #right1, #side1 { width:100%; }
+	#box1 {top:19.1vw; width:70vw; height:57vw; padding:1vw 5vw; font-size:2.3vw;}
+	#map {top:14vw; width:31vw; height: 30.8vw; padding: 4vw 24.4vw;}
+	
+	#section2, #left2, #right2, #side2 { width:100%; }	
+	#box2 {top:7vw; width:70vw; height:96vw; padding:1vw 5vw; font-size:2.3vw;}
+	#education { top:0vw; width:80vw; height: 42vw;}
+	#people { top:6vw; width:80vw; height: 52vw; margin-bottom:6vw;}
+	
+	/* SOLUTION */
+	#section3, #left3, #right3, #side3 { width:100%; }
+	#box3 {top:19.1vw; width:70vw; height:57vw; padding:1vw 5vw; font-size: 2.3vw;}
+	#the-box {top:14vw; width:35vw; height:30.8vw; padding:4vw 22.6vw;}
+	
+	#section4, #left4, #right4, #side4 { width:100%; }	
+	#box4 {top:7vw; width:70vw; height:45vw; padding:1vw 5vw; font-size:2.4vw;}
+	#box6 {top:0vw; width:70vw; height:53vw; padding:1vw 5vw; font-size:2.4vw;}
+	#note {font-size: 2.1vw;}
+	
+	/* CONTACT */
+	#box5 {top:23vw; width:70vw; height:57vw; padding:1vw 5vw; font-size: 2.3vw;}
+	#part {line-height:2.3; font-size:2.6vw;}
+	.socialmedia {
+		position: absolute;
+		top: 47.4vw;
+		left: 38.5vw;
+		width: 45vw;
+	}
+	.sm-icon {width:7vw; height:7vw; margin:0px 3px; border-radius:13px;}
+}

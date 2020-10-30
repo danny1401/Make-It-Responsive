@@ -1,0 +1,152 @@
+/*---------------------------------------------------------------------------------------------
+REFERENCES
+I redesigned the responsive navigation bar using the code below:
+Responsive Pure CSS Menu 
+https://morioh.com/p/9655fb8c1dad
+https://github.com/wilsmex/edu/tree/master/responsive_menu_css_only/finish
+-----------------------------------------------------------------------------------------------
+This website is a recreated version from one of Danny's previous projects 
+and from the project "Snowball Challenge".
+http://www.danny.informatikk4.net/Oppgaver/6%20-%20Elektrisk%20Sparkesykkel/index_ELSS.html
+https://danny1401.github.io/Snowball-Challenge/index.html
+-----------------------------------------------------------------------------------------------*/
+
+a {
+	color: white; 
+	text-decoration:none; 
+	font-weight: 700; 
+	text-shadow: 0.5vw 0.4vw black;
+	font-family: HelveticaNeue, Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+h1, h2, h3, h4 {font-family: HelveticaNeue, Helvetica, Arial, "Lucida Grande", sans-serif;}
+span {position:relative; top:3px;}
+
+#space {border-top:3px solid black; background-color:transparent;}
+#space:hover {background-color:transparent;}
+
+/*----------------------HEADER-------------------------------------*/
+.header {
+	position: fixed;
+	width: 100%;
+	height: 70px;
+	background-color: #4d0066; 
+	border-bottom: 3px solid black;
+	z-index: 3;
+}
+.header ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+	border-top:1px solid black;
+}
+.header li a {
+	display: block;
+	position: relative;
+	height: 30px;
+	padding: 18px 20px;
+	padding-left: 38px;
+	border-left: 0px solid black;
+	border-top: 2px solid black;
+	background-color: #4775d1;
+	font-size: 20px;
+	text-shadow: 2px 1px black;
+	text-align: center;
+	letter-spacing: 1.5;
+}
+#btn1 {background-color:#bf00ff;}
+#btn2 {background-color:#ac00e6;}
+#btn3 {background-color:#9900cc;}
+#btn4 {background-color:#8600b3;}
+
+.header li a:hover, .header .menu-btn:hover {background-color: #3366cc;}
+.header .logo {
+	display: block;
+	float: left;
+	font-size: 37px;
+	font-family: Tahoma, Geneva, sans-serif;
+	letter-spacing: 3.5;
+	padding: 11px 50px;
+	text-decoration: none;
+	text-shadow: none;
+}
+strong {margin-left: 10px;}
+
+/*----------------------MENU---------------------*/
+.header .menu {
+	clear: both;
+	max-height: 0;
+	transition: max-height .2s ease-out;
+}
+
+/*-----------------------ICON--------------------*/
+.header .menu-icon {
+	cursor: pointer;
+	float: right;
+	padding: 28px 20px;
+	position: relative;
+	user-select: none;
+}
+.header .menu-icon .nav-icon {
+	position: relative;
+	top: 7px;
+	height: 2px;
+	width: 18px;
+	background: white;
+	display: block;
+	transition: background .2s ease-out;
+}
+.header .menu-icon .nav-icon:before,
+.header .menu-icon .nav-icon:after {
+	background: white;
+	content: '';
+	display: block;
+	height: 100%;
+	position: absolute;
+	transition: all .2s ease-out;
+	width: 100%;
+}
+.header .menu-icon .nav-icon:before {top: 5px;}
+.header .menu-icon .nav-icon:after {top: -5px;}
+
+/*----------------------ICON BTN-------------------*/
+.header .menu-btn {display: none;}
+.header .menu-btn:checked ~ .menu {max-height: 310px;}
+.header .menu-btn:checked ~ .menu-icon .nav-icon {background: transparent;}
+.header .menu-btn:checked ~ .menu-icon .nav-icon:before {transform: rotate(-45deg); top:0;}
+.header .menu-btn:checked ~ .menu-icon .nav-icon:after { transform: rotate(45deg); top:0;}
+
+
+/*------------------------------------------------------------------------------------------*/
+@media (min-width: 1244px) {	
+	.header {border-bottom: 3px solid black;}
+	.header li {float: left;}
+	.header ul {border-top:none;}
+	.header li a {
+		padding: 20px 28px; 
+		border-top: none; 
+		border-left: 2px solid black;
+		background-color: #2e5cb8;
+		text-shadow: none;
+	margin: 10px 6px;
+    padding: 6px 23px;
+    padding-top: 11px;
+	color: white;
+	border: 1px solid white;
+	font-size: 19px;
+    text-decoration: none; 
+	text-transform: uppercase;
+	letter-spacing: 1.5;
+	}
+	.header li a:hover, .header .menu-btn:hover {background-color: #4775d1;}
+	.header .menu {
+		clear: none;
+		float: right;
+		max-height: none;
+	}
+	.header .menu-icon {display: none;}
+	.logo {text-shadow: 0.15vw 0.15vw black;}
+	
+	#space {width:5px; border-top:none; background-color: #2e5cb8;}
+	#space:hover {background-color: #2e5cb8;}
+}
