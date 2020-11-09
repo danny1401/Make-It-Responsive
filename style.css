@@ -17,191 +17,138 @@ body {
 	margin: 0;
 	background-color: #E0E0E0;
 	font-family: Tahoma, Geneva, sans-serif;
+	overflow-x: hidden;
 }
 div {letter-spacing: 0.4;}
 ul.list {list-style-type:none; padding:5 5; margin:5 5;}
 
-/* TITLES */
-#maintitle {
-	position: relative;
-	top: 20vw;
-	max-width: 100%;
-	padding: 28px 2vw;
-	color: white;
-	background-color: #600080;
-	border-top: 3px solid black;
-	border-bottom: 3px solid black;
-	font-size: 3.6vw;
-	letter-spacing: 2;
-}
 .subtitle {
 	position: relative;
-	top: 7vw;
-	width: 38vw;
+	top: 7.9vw;
+	width: 35vw;
 	padding: 13px 0;
 	color: white;
-	background-color: #3366cc;
+	background-color: #600080;
 	border: 2px solid black;
-	border-radius: 10px;
 	font-size: 2.8vw;
-	text-shadow: 0.15vw 0.15vw black;
 }
 h2 {margin-bottom: 5px;}
 
 
 
-
-
-
-/*----------------------EDUCATION IN NIGER-------------------------*/
-/* SECTION UNO */
+/*---------------------------INDEX------------------------------*/
+#maintitle {
+	position: relative;
+	top: 20vw;
+	max-width: 55%;
+	padding: 23px 2vw;
+	color: white;
+	background-color: #600080;
+	border: 3px solid black;
+	font-size: 3.6vw;
+	letter-spacing: 1;
+}
+#sub1 {position: relative; top: 37.4vw;}
 #box1 {
 	position: relative;
-	top: 6.8vw;
-	height: 28.6vw;
-	width: 46.2vw;
+	top: 37.5vw;
+	height: 27.2vw;
+	width: 66vw;
+	padding: 1vw 4vw;
+	background-color: white;
+	border: 2px solid black;
+	font-size: 1.3vw;
+	text-align: left;
+	line-height: 1.85;
+}
+#sectionI {height:75%;}
+#midI { position:relative; width:100%; float:left;}
+
+
+
+/*---------------------------SCHEDULE------------------------------*/
+/* SECTION DOS */
+#boxSC1 {
+	position: relative;
+	top: 8.2vw;
+	height: 20vw;
+	width: 76.1vw;
+	padding: 0.4vw 4vw;
+	background-color: white;
+	border: 2px solid black;
+	font-size: 1.3vw;
+	text-align: left;
+	line-height: 1.8;
+}
+#midSC1 { position:relative; width:100%; float:left; margin-bottom: 50px;}
+
+/* SECTION UNO */
+#tabell {
+	position:relative; 
+	top:7vw; 
+	margin-bottom: 4vw;
+	background-color:darkgrey;
+	border: 2px solid black;	
+}
+td { 
+	padding: 15px 25px;
+	line-height: 1.5;
+	background-color: white;
+	text-align: center;
+}
+#font {font-size:1.5vw;}
+#sectionSC2 {height:75%; }
+#midSC2 { position:relative; width:100%; float:left;}
+
+
+
+
+/*----------------------STAFF-------------------------*/
+/* SECTION UNO */
+.box {
+	position: relative;
+	top: 8.2vw;
+	height: 16.6vw;
+	width: 40.5vw;
 	padding: 0.4vw 2.8vw;
 	padding-right: 0.3.8vw;
-	background-color: #85a3e0;
+	background-color: white;
 	border: 2px solid black;
-	border-radius: 20px;
 	font-size: 1.3vw;
 	text-align: left;
 	line-height: 1.7;
 }
-#map {
+.image {
 	position: relative;
-	top: 6.8vw;
-	height: 29.5vw;
-	width: 26.8vw;
-	padding: 0vw 2.5vw;
+	height: 17.5vw;
+	width: 18.5vw;
 	border: 2px solid black;
-	border-radius: 20px;
 	background-color: white;
 }
-#section1 { height:75%; }
-#left1 { position:relative; width:55%; float:left; margin-bottom: 50px;}
-#right1 { position:relative; width:35%; float:left; margin-bottom: 50px;}
-#side1 { position:relative; width:5%; float:left;}
 
-/* SECTION DOS */
-#box2 {
-	position: relative;
-	top: 4.5vw;
-	height: 55vw;
-	width: 40vw;
-	padding: 0.4vw 2.8vw;
-	padding-right: 2vw;
-	background-color: #85a3e0;
-	border: 2px solid black;
-	border-radius: 20px;
-	font-size: 1.3vw;
-	text-align: left;
-	line-height: 1.45;
-	margin-bottom: 4vw;
-}
-#education {
-	position: relative;
-	top: 4.5vw;
-	height: 26.5vw;
-	width: 38.6vw;
-	border: 2px solid black;
-	border-radius: 20px;
-	background-color: grey;
-}
-#people {
-	position: relative;
-	top: 7vw;
-	height: 26.5vw;
-	width: 38.6vw;
-	border: 2px solid black;
-	border-radius: 20px;
-	background-color: grey;
-}
-#section2 { height:70%; }
-#left2 { position:relative; width:48%; float:left; margin-bottom: 50px;}
-#right2 { position:relative; width:42%; float:left; margin-bottom: 50px;}
-#side2 { position:relative; width:5%; float:left;}
+#staff1 {top: 8.2vw;} #img1 {top: 8.2vw;}
+#staff2 {top: 5.2vw;} #img2 {top: 5.2vw;}
+#staff3 {top: 2vw;}   #img3 {top: 2vw;}
 
-
-
-
-
-/*---------------------------OUR SOLUTION------------------------------*/
-/* SECTION UNO */
-#box3 {
-	position: relative;
-	top: 6.8vw;
-	height: 28.5vw;
-	width: 45.7vw;
-	padding: 0.4vw 2.8vw;
-	background-color: #85a3e0;
-	border: 2px solid black;
-	border-radius: 20px;
-	font-size: 1.3vw;
-	text-align: left;
-	line-height: 1.8;
-}
-#the-box {
-	position: relative;
-	top: 6.8vw;
-	height: 26.35vw;
-	width: 28.3vw;
-	padding: 1.5vw 2vw;
-	border: 2px solid black;
-	border-radius: 20px;
-	background-color: white;
-}
-#section3 {height:75%; }
-#left3 { position:relative; width:55%; float:left; margin-bottom: 50px;}
-#right3 { position:relative; width:35%; float:left; margin-bottom: 50px;}
-#side3 { position:relative; width:5%; float:left;}
-
-/* SECTION DOS */
-#box4, #box6 {
-	position: relative;
-	top: 4.4vw;
-	height: 28.6vw;
-	width: 36vw;
-	padding: 0.4vw 2.8vw;
-	background-color: #85a3e0;
-	border: 2px solid black;
-	border-radius: 20px;
-	font-size: 1.3vw;
-	text-align: left;
-	line-height: 1.8;
-	margin-bottom: 4vw;
-}
-#bilde3 {
-	position: relative;
-	top: 4.4vw;
-	height: 29.5vw;
-	width: 40.3vw;
-	border: 2px solid black;
-	border-radius: 20px;
-	background-color: grey;
-}
-#note {font-size: 1.29vw;}
-#section4 {height:70%;}
-#left4 { position:relative; width:45%; float:left; margin-bottom: 50px;}
-#right4 { position:relative; width:45%; float:left; margin-bottom: 50px;}
-#side4 { position:relative; width:5%; float:left;}
-
+#section1 {height:50%;}
+#left1 { position:relative; width:46%; float:left; }
+#right1 { position:relative; width:26%; float:left;}
+#side1 { position:relative; width:14%; float:left;}
 
 
 /*----------------------------CONTACT US-----------------------------*/
 #box5 {
 	position: relative;
-	top: 6.8vw;
-	height: 28.6vw;
+	top: 7.8vw;
+	height: 27.6vw;
 	width: 50.5vw;
-	padding: 0.4vw 3.5vw;
-	background-color: #85a3e0;
+	padding: 0.4vw 2.8vw;
+	padding-right: 0.3.8vw;
+	background-color: white;
 	border: 2px solid black;
-	border-radius: 20px;
 	font-size: 1.3vw;
 	text-align: left;
-	line-height: 2;
+	line-height: 1.7;
 }
 #email {
 	color: black;
@@ -209,7 +156,7 @@ h2 {margin-bottom: 5px;}
 	text-shadow: none;
 	font-family: HelveticaNeue, Helvetica, Arial, "Lucida Grande", sans-serif;
 }
-#part {line-height:2.4; font-size:1.45vw;}
+#part {line-height:2.5; font-size:1.45vw;}
 .socialmedia {
 	position: relative;
 	top: -5.6vw;
@@ -225,33 +172,72 @@ h2 {margin-bottom: 5px;}
 	border-radius: 18px;
 }
 
-/*----------------------------RESPONSIVE DESIGN----------------------------------*/
 
+
+/*---------------------------FOOTER------------------------------*/
+.footer {
+	height: 40px;
+	width: 100%;
+	padding: 15px 20px;
+	background-color: #4d0066;
+	border-top: 3px solid black;
+	color: white;
+	float: left;
+	text-align: center;
+}
+#footerI {margin-top: 36vw;}
+#footerSC {margin-top: 6vw;}
+#footerST {margin-top: -1vw;}
+#footerC {margin-top: 11vw;}
+
+#email-F {
+	position: relative;
+	top: 8px;
+	color: white;
+	font-size: 19px;
+	font-weight: 700; 
+	text-shadow: none;
+	font-family: HelveticaNeue, Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.leftF {width:30.5%; float:left;}
+.midF {width:39%; float:left;}
+.rightF {width:28%; float:left;}
+
+
+
+
+/*----------------------------RESPONSIVE DESIGN----------------------------------*/
 @media only screen and (max-width:800px) {
   /* For mobile phones: */
 	#maintitle {top:28vw; max-width:70%; font-size:5vw; padding:17px 5vw; line-height:1.4;}
 	.subtitle {top:20vw; font-size:3.4vw; padding:13px 15px;}
 	
-	/* EDUCATION */
-	#section1, #left1, #right1, #side1 { width:100%; }
-	#box1 {top:19.1vw; width:70vw; height:57vw; padding:1vw 5vw; font-size:2.3vw;}
-	#map {top:14vw; width:31vw; height: 30.8vw; padding: 4vw 24.4vw;}
+	/* INDEX */
+	#sectionI, #midI { width:100%; }
+	#box1 {top:41vw; width:66vw; height:100vw; padding:1vw 7vw; font-size:2.7vw;}
 	
-	#section2, #left2, #right2, #side2 { width:100%; }	
-	#box2 {top:7vw; width:70vw; height:96vw; padding:1vw 5vw; font-size:2.3vw;}
-	#education { top:0vw; width:80vw; height: 42vw;}
-	#people { top:6vw; width:80vw; height: 52vw; margin-bottom:6vw;}
+	/* SCHEDULE */
+	#midSC1 {width:100%;}	
+	#boxSC1 {top:22vw; width:66vw; height:56vw; padding:1vw 7vw; font-size:2.3vw;}
 	
-	/* SOLUTION */
-	#section3, #left3, #right3, #side3 { width:100%; }
-	#box3 {top:19.1vw; width:70vw; height:57vw; padding:1vw 5vw; font-size: 2.3vw;}
-	#the-box {top:14vw; width:35vw; height:30.8vw; padding:4vw 22.6vw;}
+	#tabell {position: relative;top:20vw;}
+	td {padding: 1vw 0vw; font-size:2vw;}
+	#font {font-size:2.5vw;}
 	
-	#section4, #left4, #right4, #side4 { width:100%; }	
-	#box4 {top:7vw; width:70vw; height:45vw; padding:1vw 5vw; font-size:2.4vw;}
-	#box6 {top:0vw; width:70vw; height:53vw; padding:1vw 5vw; font-size:2.4vw;}
-	#note {font-size: 2.1vw;}
+	#sectionSC2, #midSC2 {width:100%;}	
+
+	/* STAFF */
+	.box {height:21.7vw; width:50vw; padding:0.4vw 2.8vw; font-size:1.8vw;}
+	.image {height: 22.5vw; width: 23.5vw; margin-left:5vw;}
+	#left1 {width:55%;}
+	#side1 {width:7%;}
+
+	#staff1 {top: 22vw;}    #img1 {top: 22vw;}
+	#staff2 {top: 5.5vw;}     #img2 {top: 5.5vw;}
+	#staff3 {top: -11vw;}   #img3 {top: -11vw;}
 	
+	#section1 {height:40%;}
+
 	/* CONTACT */
 	#box5 {top:23vw; width:70vw; height:57vw; padding:1vw 5vw; font-size: 2.3vw;}
 	#part {line-height:2.3; font-size:2.6vw;}
@@ -262,4 +248,13 @@ h2 {margin-bottom: 5px;}
 		width: 45vw;
 	}
 	.sm-icon {width:7vw; height:7vw; margin:0px 3px; border-radius:13px;}
+	
+	/* FOOTER */
+	#footerI {margin-top: 50vw; height:26vw;}
+	#footerSC {margin-top: 30vw; height:26vw;}
+	#footerST {margin-top: -30vw; height:26vw;}
+	#footerC {margin-top: 30vw; height:26vw;}
+	#email-F {top: -3vw; font-size: 3.5vw;}
+	
+	#sectionF, .leftF, .midF, .rightF {width:93%; margin-bottom:5vw;}
 }
